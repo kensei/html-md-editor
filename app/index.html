@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>browser markdown editor</title>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/marked/lib/marked.js"></script>
+  <script src="bower_components/highlightjs/highlight.pack.js"></script>
+
+  <link rel="stylesheet" href="bower_components/highlightjs/styles/github.css" />
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="styles/styles.css">
+  <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <!--左半分。titleとbodyの入力欄-->
+    <div class="col-md-6 col-sm-6">
+      <div class="edit">
+        <textarea id="titleeditor" class="form-control"></textarea>
+        <textarea id="bodyeditor" class="form-control"></textarea>
+      </div>
+    </div>
+
+    <!--右半分。titleとbodyの出力欄-->
+    <div class="col-md-6 col-sm-6 resultarea">
+      <div id="titleresult"><h1></h1></div>
+      <div id="bodyresult"></div>
+    </div>
+  </div>
+</div>
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="../scripts/main.js"></script>
+
+</body>
+</html>

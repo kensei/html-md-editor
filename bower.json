@@ -1,0 +1,17 @@
+{
+  "name": "my-gulp-livereload",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "marked": "~0.3.3",
+    "highlightjs": "~8.5.0",
+    "bootstrap": "~3.3.4"
+  },
+  "devDependencies": {},
+  "main": "main.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
