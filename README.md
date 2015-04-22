@@ -1,5 +1,15 @@
 # html markdown editor
 
+## use
+
+[Katex](https://github.com/Khan/KaTeX)
+
+[marked](https://github.com/chjj/marked)
+
+[highlightjs](https://github.com/isagalaev/highlight.js)
+
+## install
+
 `$ npm install`
 
 `$ bower install`
